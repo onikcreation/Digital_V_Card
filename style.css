@@ -52,7 +52,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .loader-logo {
-  width: 140px;
+  width: 70px;
   height: auto;
   animation: pulse 1s ease-in-out infinite alternate;
 }
