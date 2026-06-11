@@ -56,7 +56,7 @@ function downloadVCard() {
     'TEL;TYPE=WORK,VOICE:+8801675547466',
     'EMAIL;TYPE=WORK:anik@udvash.com',
     'URL:https://www.udvash.com',
-    'PHOTO;VALUE=URI:assets/profile.jpg',
+    'PHOTO;VALUE=URI:assets/profile2.jpg',
     'END:VCARD'
   ].join('\r\n');
 
