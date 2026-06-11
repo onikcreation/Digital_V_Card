@@ -1,6 +1,6 @@
 /**
  * digital-vcard / app.js
- * Author  : Md Al Amin (aNiK)
+ * Author  : Al Amin Anik (aNiK)
  * Version : 1.0
  *
  * Features:

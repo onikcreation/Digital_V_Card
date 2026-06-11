@@ -1,4 +1,4 @@
-# 📇 Digital vCard — Md Al Amin (aNiK)
+# 📇 Digital vCard — Al Amin Anik
 
 একটি সম্পূর্ণ **Digital Business Card** ওয়েবসাইট — pure HTML, CSS এবং vanilla JavaScript দিয়ে তৈরি। কোনো framework বা build tool লাগে না।
 
