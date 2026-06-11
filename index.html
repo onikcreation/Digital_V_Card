@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Md Al Amin – Assistant Manager ERP & Web Management, Udvash-Unmesh-Uttoron" />
+
+  <!-- Open Graph (WhatsApp/Facebook share preview) -->
+  <meta property="og:title" content="Md Al Amin – Digital Card" />
+  <meta property="og:description" content="Assistant Manager ERP & Web Management" />
+  <meta property="og:image" content="assets/profile.jpg" />
+  <meta property="og:type" content="profile" />
+
+  <title>Md Al Amin | Digital Card</title>
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======= LOADER ======= -->
+  <div id="loader">
+    <div class="loader-logo">aNiK</div>
+  </div>
+
+  <!-- ======= CARD WRAPPER ======= -->
+  <div class="page-bg">
+    <div class="card">
+
+      <!-- HEADER -->
+      <header class="card-header">
+        <div class="profile-wrap">
+          <!-- নিজের ছবির path: assets/profile.jpg বা .png -->
+          <img src="assets/profile.jpg" alt="Al Amin Anik" class="profile-img" id="profileImg"
+               onerror="this.onerror=null;this.src='assets/profile.svg'" />
+        </div>
+        <h1 class="profile-name">Md Al Amin</h1>
+        <p class="profile-title">Assistant Manager ERP &amp; Web Management</p>
+      </header>
+
+      <!-- ACTION BAR -->
+      <div class="action-bar">
+        <a href="tel:+8801313368630" class="action-btn">
+          <i class="fa-solid fa-phone"></i>
+          <span>CALL</span>
+        </a>
+        <div class="action-divider"></div>
+        <a href="mailto:anik@udvash.com" class="action-btn">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>EMAIL</span>
+        </a>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <section class="contact-section">
+
+        <div class="contact-group">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact-detail">
+              <a href="tel:+8801313368630" class="contact-value">+8801313368630</a>
+              <span class="contact-label">Mobile</span>
+            </div>
+          </div>
+          <div class="contact-item no-icon">
+            <div class="contact-detail">
+              <a href="tel:+8801675547466" class="contact-value">+8801675547466</a>
+              <span class="contact-label">Telephone</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="contact-detail">
+            <a href="mailto:anik@udvash.com" class="contact-value">anik@udvash.com</a>
+            <span class="contact-label">Email</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-value">Udvash-Unmesh-Uttoron</span>
+            <span class="contact-label">Assistant Manager ERP &amp; Web Management</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="contact-detail">
+            <a href="https://www.udvash.com" target="_blank" rel="noopener" class="contact-value">www.udvash.com</a>
+            <span class="contact-label">Website</span>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- SOCIAL MEDIA -->
+      <section class="social-section">
+        <h2 class="section-heading">Social Media</h2>
+        <div class="social-grid">
+          <a href="#" class="social-btn facebook"    aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social-btn messenger"   aria-label="Messenger">
+            <i class="fa-brands fa-facebook-messenger"></i>
+          </a>
+          <a href="#" class="social-btn whatsapp"    aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="#" class="social-btn skype"       aria-label="Skype">
+            <i class="fa-brands fa-skype"></i>
+          </a>
+          <a href="#" class="social-btn instagram"   aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="social-btn twitter"     aria-label="X / Twitter">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="#" class="social-btn youtube"     aria-label="YouTube">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="#" class="social-btn linkedin"    aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- DOWNLOAD VCARD -->
+      <div class="download-wrap">
+        <button class="download-btn" id="downloadBtn" onclick="downloadVCard()">
+          <i class="fa-solid fa-user-plus"></i>
+          <span>DOWNLOAD VCARD</span>
+        </button>
+      </div>
+
+    </div><!-- /card -->
+  </div><!-- /page-bg -->
+
+  <script src="app.js"></script>
+</body>
+</html>
