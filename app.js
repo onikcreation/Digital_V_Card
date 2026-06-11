@@ -16,7 +16,7 @@
 window.addEventListener('load', () => {
   const loader = document.getElementById('loader');
   if (loader) {
-    setTimeout(() => loader.classList.add('hidden'), 600);
+    setTimeout(() => loader.classList.add('hidden'), 1000);
   }
 });
 
